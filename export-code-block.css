@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.export-code-block{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 64.45vh;
+    background: #042C4B;
+}
+#export-container{
+    display: flex;
+    width: 81vw;
+    height: 38.09vh;
+    padding: 11.72vh 9.38vw 14.65vh 9.38vw;
+    align-items: center;
+}
+#content{
+    width: 48.61vw;
+    height: 38.09vh;
+    padding: 0 0 14.65vh 0;
+}
+#content button{
+    display: flex;
+    width: 19vw;
+    height: 7.81vh;
+    margin: 4.30vh 0 0 1.04vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FDC13D;
+}
+#content p{
+    color: #99A2AA;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.56vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.93vh;
+    margin: 0;
+}
+#content .first-p{
+    padding: 3.52vh 0 0 1.04vw;
+}
+#content .second-p{
+    padding: 0 0 0 1.04vw;
+}
+#content h2{
+    color: #F8F8F8;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.69vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+}
+#startsuccesfull{
+    padding: 3.03vh 0 0 1.04vw;
+    height: 5.57vh;
+}
+#international-business{
+    padding: 0.36vh 0 0 1.04vw;
+    height: 5.57vh;
+}
+
+

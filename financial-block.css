@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    width: 100vw;
+}
+#financial-block{
+    display: flex;
+    width: 100vw;
+    height: 86vh;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+
+}
+#financial-container{
+    width: 83.33vw;
+    height: 76.17vh;
+    padding: 9.77vh 8.33vw 0 8.33vw;
+}
+#fin-tabpanel{
+    width: 80vw;
+    height: 21.48vh;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FDC13D;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1vw;
+}
+#fin-tabpanel .first-h{
+    width: 67.86vw;
+    height: 5.86vh;
+    flex-direction: column;
+    justify-content: center;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.34vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.13vh;
+    padding: 5.08vh 0 0 10vw;
+    margin: 0;
+    align-items: center;
+}
+#fin-tabpanel .first-p{
+    width: 68.12vw;
+    height: 2.15vh;
+    padding: 1vh 0 0 10vw;
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.56vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.93vh;
+    margin: 0;
+    align-items: center;
+}
+#fin-tabpanel .second-p{
+    display: flex;
+    width: 9vw;
+    height: 1.86vh;
+    justify-content: flex-start;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.56vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.34vh;
+    padding: 1.46vh 0 3.91vh 10vw;
+}
+#financial-container h2{
+    width: 32vw;
+    height: 57px;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.69vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.86vh;
+    padding:  11.82vh 0 0 1vw;
+}
+#fin-links{
+    display: flex;
+    flex-direction: row;
+
+}
+.fin-link{
+    width: 19vw;
+    height: 26.37vh;
+    position: relative;
+}
+.fin-link h4{
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.8vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.13vh;
+    padding-left: 2vw;
+    margin: 0;
+}
+.fin-link p{
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.95vh;
+    padding: 1vh 0 0 2vw;
+}
+.fin-link img{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 8.5vw;
+    width: 4vw;
+    height: 8vh;
+    bottom: 16vh;
+}

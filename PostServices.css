@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    width: 100vw;
+}
+
+.services-block{
+    width: 100vw;
+    background: #F8F8F8;
+    height: 88.89vh;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+}
+#postposlugi{
+    width: 28vw;
+    height: 70vh;
+    padding: 11.11vh 0 0 8.33vw;
+
+}
+#postposlugi h2{
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.2vh;
+    display: flex;
+    height: 3.9vh;
+    flex-direction: column;
+    justify-content: center;
+}
+#postposlugi p{
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1vh;
+    padding-left: 1.042vw;
+}
+#third{
+    width: 14.23vw;
+    padding: 3.44vh 0 4vh 1.042vw;
+    margin: 0;
+}
+#fourth{
+    width: 13.93vw;
+    padding: 0.33vh 0 0 1.042vw;
+    margin: 3px;
+}
+/*/....................................................................../*/
+.linksleft{
+    display: flex;
+    /*position: absolute;*/
+    /*left: 35vw;*/
+    /*top: 45vh;*/
+    flex-direction: column;
+    padding: 9.77vh 0 9.77vh 1.04vw;
+}
+.linksright{
+padding: 9.77vh 0 9.77vh 1.08vw;
+}
+.linklist{
+    width: 26vw;
+    height: 20vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*padding-top: 30px;*/
+}
+.linklist img{
+    width: 5vw;
+    height: 10vh;
+    position: absolute;
+    padding-left: 12vw;
+    padding-top: 5.5vh;
+    justify-content: center;
+
+}
+.more{
+    display: flex;
+    width: 6.111vw;
+    height: 1.889vh;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0E2F4B;
+    font-family:'Rubik', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.222vh;
+    margin: 0;
+    padding: 2vh 0 0 2.08vw;
+}
+.more img{
+    display: flex;
+    width: 2vh;
+    height: 2vh;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(14, 47, 75, 0.37);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+    padding: 0 0 0 6vw;
+}
+.h4 {
+    display: flex;
+    width: 25vw;
+    height: 3.111vh;
+    justify-content: flex-start;
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+}
+.top{
+    padding: 3.56vh 0 0 2.08vw;
+
+}
+.bottom{
+    display: flex;
+    padding: 0.44vh 0 0 2.08vw;
+}
+
+/*/....................................................................../*/
+.container{
+    position: absolute;
+    justify-content: center;
+    height: 20.7vh;
+    width: 83.33vw;
+    display: flex;
+    flex-direction: column;
+    top: -16vh;
+    padding-left: 8.33vw;
+}
+#numberenter{
+    display: flex;
+    flex-direction: row;
+    padding: 2.93vh 0 0 1.04vw;
+}
+#number{
+    width: 39vw;
+    display: inline-flex;
+    height: 9vh;
+    padding: 0 5vh 0 2vh;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+    color: rgba(117, 117, 117, 1);
+    border-style: hidden;
+    flex-direction: column;
+    justify-content: center;
+    color: #757575;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+#enter {
+    width: 8.55vw;
+    height: 7.03vh;
+    flex-shrink: 0;
+    background: #FFF;
+    border-style: hidden;
+    margin: 0 2.08vw 0 28.95vw;
+    position: absolute;
+}
+.buttons{
+    flex-direction: row;
+    display: flex;
+    padding: 4vh 0 0 1.04vw;
+}
+#count, #issue, #indexfinder, #subscription{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+    width: 18.75vw;
+    height: 7.81vh;
+    padding: 1.79vh 3.77vw 1.67vh 3.80vw;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.66vw;
+    display: flex;
+}
+#count, #issue, #indexfinder{
+    margin-right: 2vw;
+}
+
+#indexfinder p{
+    display: flex;
+    width: 8vw;
+    margin: 0;
+}
+.buttons p{
+    width: 7vw;
+    color: #99A2AA;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+
+}
+    a{
+    text-decoration: none;
+    color: #0E2F4B;
+    display: flex;
+}
+
+

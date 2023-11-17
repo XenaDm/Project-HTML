@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    width: 100vw;
+}
+.branches-block{
+    display: flex;
+    width: 100vw;
+    padding: 5vh 9.38vw 4.88vh 9.38vw;
+    justify-content: flex-start;
+    align-items: center;
+    background: #FEC524;
+    height: 50vh;
+}
+#branches-container{
+    width: 80.44vw;
+    height: 35.35vh;
+}
+#branches-container h2{
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.86vh;
+    padding-top: 3.01vh;
+    margin: 0;
+}
+#stores{
+    display: flex;
+    padding-top: 1vh;
+}
+#chekout{
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3vh;
+}
+#mobapp{
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3vh;
+}
+#gplay{
+    position: relative;
+}#astore{
+    position: relative;
+}
+#stores p{
+    position: absolute;
+    bottom: 2.8vh;
+    left: 3.8vw;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#chat-bot{
+    color: #0E2F4B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3vh;
+}
+#links-chats{
+    display: flex;
+}
+#links-chats img{
+    margin-right: 1.4vw;
+}

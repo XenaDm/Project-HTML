@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 100vw;
+}
+.ukrposhta{
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+}
+header{
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    padding: 2.78vh 0 1.67vh 9.4vw;
+    width: 100vw;
+    height: 10vh
+
+}
+.logo{
+    width: 186px;
+    height: 50px;
+}
+.second{
+    width: 100vw;
+    height: 7vh;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 2.057vw;
+    position: absolute;
+    padding: 0 46.608vw 0 9.375vw;
+}
+#traking{
+    width: 57.004px;
+}
+#poslugi{
+    width: 64.307px;
+}
+#taryfy{
+    width: 58.759px;
+}
+#viddilenia{
+    width: 84.079px;
+}
+#filatelia{
+    width: 74.769px;
+}
+#career{
+    width: 59.498px;
+}
+#business{
+    width: 58.799px;
+}
+.second p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.2vh;
+    color: #99A2AA;
+
+
+}
+.second a{
+    text-decoration: none;
+    color: #99A2AA;
+}
